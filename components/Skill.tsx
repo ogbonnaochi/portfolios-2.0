@@ -5,7 +5,7 @@ type Props = {
   directionLeft?:boolean;
 }
 
-export default function Skill({directionLeft}: Props) {
+ function Skill({directionLeft}: Props) {
   return (
     <div className='group relative flex cursor-pointer'>
 <motion.img
@@ -16,11 +16,11 @@ initial={{
   transition={{duration:1}}
   whileInView={{ opacity: 1, x: 0}}
 
-  src='port.jpg' className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition-duration-300 ease-in-out' />
+  src='port.jpg' className='rounded-full border border-gray-500 w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition-duration-300 ease-in-out' />
   <div>
 
 <div className='flex-item center justify-center h-full'>
-<p className='text-3xl font-bold text-black opacity-100'>100%</p>
+<p className='text-3xl font-bold text-black opacity-100'>20%</p>
 </div>
 
 
@@ -30,5 +30,6 @@ initial={{
 
 
     </div>
-  )
+  );
 }
+export default Skill;
