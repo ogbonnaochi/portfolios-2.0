@@ -17,7 +17,7 @@ export default function ExperienceCard({}: Props) {
         whileInView={{ opacity: 1, y: 0}}
         viewport={{once: true}}
         
-        className='h-10 1-10 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
+        className='h-10 1-10 rounded-full xl:w-[20px] xl:h-[20px] object-cover object-center'
         src="./hope.jpg" />
 
 
