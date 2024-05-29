@@ -17,7 +17,7 @@ export default function Hero({}: Props) {
   });
 
   return (
-    <div className='bg-[black] h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
+    <div className='bg-[black] text-white h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
      <BackgroundCircle />
       {/* <img className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center' src=" ./hope.jpg" 
      
@@ -30,25 +30,24 @@ export default function Hero({}: Props) {
         <span className='mr-3'>{text}</span>
         <Cursor cursorColor=" #F7AB0A " />
       </h1>
-      
-       <div className='pt-5'>
-        <a href='#About'> 
-        <button className='heroButton'>About</button>
-        </a> 
+      <div className='pt-5 space-x-4'>
+  <a href='#About'> 
+    <button className='heroButton'>About</button>
+  </a> 
 
-        <a href='#Experience'> 
-        <button className='heroButton'>Experience</button>
-        </a> 
+  <a href='#Experience'> 
+    <button className='heroButton'>Experience</button>
+  </a> 
 
-         <a href='#Skills'> 
-        <button className='heroButton'>Skills</button>
-         </a> 
+  <a href='#Skills'> 
+    <button className='heroButton'>Skills</button>
+  </a> 
 
-        <a href='#Projects'> 
-        <button className='heroButton'>Projects</button>
-        </a> 
-         
-      </div> 
+  <a href='#Projects'> 
+    <button className='heroButton'>Projects</button>
+  </a> 
+</div>
+
       
       </div>
 

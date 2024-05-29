@@ -4,63 +4,76 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import WorkExperience from '../components/WorkExperience';
-import TechnicalSkills from '../components/TechnicalSkills';
+import Skill from '../components/Skill';
 import Projects from '../components/Projects';
-
-
-
-import ExperienceCard from '../components/ExperienceCard';
-
-
-
+import ContactMe from '../components/ContactMe';
+<link rel="shortcut icon" href="#"></link>
+import Link from 'next/link';
 
 
 
 const Home: NextPage = () => {
   return (
-   
-      <div className='
-      bg-[black] text-white h-screen snap-y sanp-mandatory  overflow-scroll z-0'>
 
-        <Head>
-<title>donatusportfolio</title>
- </Head>
-<Header />
+    <div className='bg-[rgb(36,36,36)]  text-black h-screen'  >
 
-<section id='hero' className='snap-start'>
- 
-  <Hero />
+      <Head>
+        <title>donatusportfolio</title>
+      </Head>
+
+      <Header />
 
 
-</section>
+
+      <section id='hero' className='snap-start'>
+
+        <Hero />
 
 
-<section id='About' className='snap-center'>
-          <About />
-</section>
+
+      </section>
 
 
-            
-<section id='WorkExperience' className='snap-center'>
-<WorkExperience />
-</section>
+      <section id='About' className='snap-center'>
+        <About />
+      </section>
 
-              {/* TechnicalSkills*/}
-              <section id='TechnicalSkills' className='snap-start'>
 
-                <TechnicalSkills />
-              </section>
 
-             
-                {/* Project*/}
+      <section id='WorkExperience' className='snap-center'>
+        <WorkExperience />
+      </section>
 
-                <section id='Projects' className='snap-start'>
+      {/* TechnicalSkills*/}
+      <section id='TechnicalSkills' className='snap-start'>
 
-                <Projects />
-              </section>
-                  {/* Contact Me*/}
-      </div>
-  
+        <Skill />
+      </section>
+
+
+      {/* Project*/}
+
+      <section id='Projects' className='snap-start'>
+
+        <Projects />
+      </section>
+
+      {/* Contact Me*/}
+      <section id='contact' className='snap-start'>
+        <ContactMe />
+      </section>
+
+      <Link href='#hero'>
+
+        <footer className=' bottom-5 w-full cursor-pointer'>
+          <div className='flex items-items justify-center'>
+
+            <img className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0' src='hope.jpg' alt='' /></div>
+        </footer>
+
+      </Link>
+    </div>
+
   );
 };
 

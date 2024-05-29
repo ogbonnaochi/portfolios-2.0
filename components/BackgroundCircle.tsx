@@ -25,7 +25,7 @@ function BackgroundCircle({}: Props) {
     
     
     className='relative flex justify-center items-center'>
-       <img className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'src=" ./hope.jpg" 
+       <img className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'src=" ./hope.jpg" alt='' 
      
      />
         {/* <div  className=' rounded-full border border-[#333333]  h-[200px] w-[200px] mt-52 animate-ping'/>

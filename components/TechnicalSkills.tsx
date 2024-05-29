@@ -1,25 +1,27 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import Skill from './Skill';
 
-type Props = {}
+type Props = {
+  directionLeft?: boolean;
+}
 
-function TechnicalSkills({}: Props) {
-  return (  
-  <motion.div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
-<h3 className='absolute top-24 uppercase tracking-[20px] text-grey-500 text-2xl'>Skill</h3>
-
-<h3 className='absolute top-24 uppercase tracking-[20px] text-grey-500 text-sm'>Hover over to see my Skills</h3>
-
-
-
-<div className='grid grid-cols-4 gap-5'>
-
-  
-
+function TechnicalSkills({ directionLeft }: Props) {
+  return (
+    <div>
+  <motion.img
+    initial={{
+      x: directionLeft ? -200 : 200,
+      opacity: 0,
+    }}
+    transition={{ duration: 1 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    src='port.jpg'
+    className=' rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-[100vh] xl:h-[100vh] filter group-hover:grayscale transition-duration-300 ease-in-out'
+    alt='Skill Image'
+  />
 </div>
-    </motion.div>
-  ); 
+
+  );
 }
 
 export default TechnicalSkills;

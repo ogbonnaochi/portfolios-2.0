@@ -34,7 +34,7 @@ export default function About({}: Props) {
          viewport={{once: true}}
 
     
-         className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center' src='./hope.jpg'/>
+         className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center' src='./hope.jpg' alt=''/>
 
      
         
@@ -47,7 +47,7 @@ export default function About({}: Props) {
           <p className='pt-8 text-base'>
 
             Hello, I'm Ochinanwata Donatus Ogbonna, a seasoned software front-end developer specializing
-             in crafting intuitive and dynamic user experiences. With expertise in React, Vue, Next.js, 
+             in crafting intuitive and dynamic user experiences. With expertise in Javascript, React, Vue, Next.js, 
              and Node.js, I've spearheaded a few projects, blending cutting-edge technologies to deliver seamless web solutions. 
              My passion lies in transforming ideas into captivating digital experiences, 
              employing clean code and innovative design principles. 
