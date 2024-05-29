@@ -30,7 +30,7 @@ return (
           </div>
 
           <div className='text-container'>
-            <h4 className='text-4xl font-semibold text-center'>Case Study 1 OF LinkedIn Clone</h4>
+            <h4 className='text-4xl font-semibold text-center'>LinkedIn Clone</h4>
             <p className='text-lg text-center md:text-left'>The Netflix platform uses algorithms to personalize recommendations,
                making it easier for users to discover shows they will love.  
                This shift from traditional cable has led to a surge in binge-watching,
