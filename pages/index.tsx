@@ -45,10 +45,10 @@ const Home: NextPage = () => {
       </section>
 
       {/* TechnicalSkills*/}
-      <section id='TechnicalSkills' className='snap-start'>
+      {/* <section id='TechnicalSkills' className='snap-start'>
 
         <Skill />
-      </section>
+      </section> */}
 
 
       {/* Project*/}
