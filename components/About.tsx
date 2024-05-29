@@ -46,15 +46,15 @@ export default function About({}: Props) {
 
           <p className='pt-8 text-base'>
 
-            Hello, I'm Ochinanwata Donatus Ogbonna, a seasoned software front-end developer specializing
+            Hello, I am Ochinanwata Donatus Ogbonna, a seasoned software front-end developer specializing
              in crafting intuitive and dynamic user experiences. With expertise in Javascript, React, Vue, Next.js, 
-             and Node.js, I've spearheaded a few projects, blending cutting-edge technologies to deliver seamless web solutions. 
+             and Node.js, I have spearheaded a few projects, blending cutting-edge technologies to deliver seamless web solutions. 
              My passion lies in transforming ideas into captivating digital experiences, 
              employing clean code and innovative design principles. 
              From conceptualization to implementation, I thrive on pushing boundaries and exceeding expectations
-              in the ever-evolving landscape of web development. Whether it's building responsive interfaces or optimizing performance, 
+              in the ever-evolving landscape of web development. Whether it is building responsive interfaces or optimizing performance, 
               I bring a meticulous eye for detail and a dedication to delivering exceptional results. 
-              With a proven track record of delivering high-quality, scalable applications, I'm committed to staying at the forefront of technology, 
+              With a proven track record of delivering high-quality, scalable applications, I am committed to staying at the forefront of technology, 
               continually honing my skills to drive innovation and create impactful solutions.
                Welcome to my digital realm, where creativity meets functionality, 
                and every line of code tells a story of innovation and excellence.!

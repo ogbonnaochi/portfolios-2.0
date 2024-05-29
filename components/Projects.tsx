@@ -32,11 +32,11 @@ return (
           <div className='text-container'>
             <h4 className='text-4xl font-semibold text-center'>Case Study 1 OF LinkedIn Clone</h4>
             <p className='text-lg text-center md:text-left'>The Netflix platform uses algorithms to personalize recommendations,
-               making it easier for users to discover shows they'll love.  
-               This shift from traditional cable has led to a surge in "binge-watching,"
+               making it easier for users to discover shows they will love.  
+               This shift from traditional cable has led to a surge in binge-watching,
                 where viewers devour entire seasons in a short amount of time. 
-                Netflix's success has also spurred competition from other streaming services, 
-                all vying for viewers' attention.</p>
+                Netflix success has also spurred competition from other streaming services, 
+                all vying for viewers attention.</p>
           </div>
 
             </div>
