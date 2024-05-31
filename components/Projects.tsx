@@ -9,7 +9,7 @@ function Projects({}: Props) {
 return (
   <div className='h-screen overflow-hidden  max-w-full justify-evenly mx-auto items-center'>
 
-    <h3 className='top-24 uppercase tracking-[20px] text-grey-500 text-2xl items-center'>Projects</h3>
+    <h3 className='top-24 uppercase tracking-[20px] text-grey-500 text-2xl justify-center text-center'>Projects</h3>
   
     <div className='scroll-container'>
       {projects.map((project, index) => (
