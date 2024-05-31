@@ -48,3 +48,34 @@
     text-align: center;
 }
 
+.img-container img.soft-edges {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.github-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .github-link:hover {
+    background-color: #555;
+  }
+
+  .project-section {
+    overflow: hidden;
+}
+
+.project-section * {
+    overflow: hidden;
+}
