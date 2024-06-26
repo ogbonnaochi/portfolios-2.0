@@ -79,3 +79,20 @@
 .project-section * {
     overflow: hidden;
 }
+
+.project-title{
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #333;
+}
+
+.footer-span{
+    background-color: #333;
+}
+
+.foot-a{
+
+    background-color: #333;
+}

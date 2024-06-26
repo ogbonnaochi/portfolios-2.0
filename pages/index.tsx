@@ -1,3 +1,4 @@
+
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Header from '../components/Header';
@@ -9,6 +10,7 @@ import Projects from '../components/Projects';
 import ContactMe from '../components/ContactMe';
 <link rel="shortcut icon" href="#"></link>
 import Link from 'next/link';
+
 
 
 

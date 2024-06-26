@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 
+
 type Props = {}
 
 export default function ExperienceCard({}: Props) {
@@ -17,14 +18,14 @@ export default function ExperienceCard({}: Props) {
           alt=''
         />
         <div className='px-0 md:px-10'>
-          <h4 className='text-4xl font-light text-white'>WETLAND Front end Developer</h4>
-          <p className='font-bold text-2xl mt-1 text-white'>WETLAND</p>
+          <h4 className='text-4xl font-light text-white'>AMSLEY Tech Front end Developer</h4>
+          <p className='font-bold text-2xl mt-1 text-white'>AMSLEY TECH</p>
           <div className='flex space-x-2 my-2'>
             <img className='h-10 w-10 rounded-full' src="./port.jpg" alt="" />
             <img className='h-10 w-10 rounded-full' src="./port.jpg" alt="" />
             <img className='h-10 w-10 rounded-full' src="./port.jpg" alt="" />
           </div>
-          <p className='text-white'>Started ... - Ended ...</p>
+          <p className='text-white'>Started 2021 - Ended ...</p>
           <ul className='list-disc space-y-4 ml-5 text-lg text-white'>
             <li>summary point</li>
             <li>summary point</li>
